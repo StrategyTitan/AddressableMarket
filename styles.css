@@ -1,0 +1,38 @@
+html { height: 100%; width: 100% }
+body { height: 100%; width: 100%; margin: 0; padding: 0; }
+#map-container { height: 100%; width: 100%; }
+.mapboxgl-ctrl-geocoder { display: none !important; z-index: 10000000 !important;}
+#geocoder-container > div {
+    min-width: 50%;
+    margin-right: 25%;
+}
+.mapboxgl-popup-content { font-size: 1rem; }
+
+@media screen and (min-width: 640px) {
+    #drive-time {
+        width: 75% !important;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .mapboxgl-ctrl-geocoder {
+        width: 75% !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 3rem 2rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .lead {
+        display: none;
+    }
+}
+
+.display-4 {
+    font-size: 3rem !important;
+}
+
